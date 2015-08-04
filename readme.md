@@ -2,7 +2,7 @@
 
 Functional css layout utilities. Drop `gr8.css` into your project and begin assigning classes.
 
-** Documentation coming, eventually... **
+**Documentation coming, eventually...**
 
 Initially a fork of [gravitons](https://github.com/jxnblk/gravitons). Also s/o [Basscss](http://basscss.com) and  [f(css)](http://www.jon.gold/2015/07/functional-css/).
 
