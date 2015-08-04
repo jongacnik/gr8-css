@@ -24,4 +24,4 @@ h.css | header
 etc.css | various
 main.css | options
 
-Default spacing / font size options can be changed in `source/gr8.css`. Build using script `npm run build` (uses [cssnext](http://cssnext.io)).
+Default spacing / font size options can be changed in `source/main.css`. Build using script `npm run build` (uses [cssnext](http://cssnext.io)).
