@@ -1,0 +1,13 @@
+
+.fl { float: left }
+.fr { float: right }
+
+.cf::before,
+.cf::after {
+  content: ' ';
+  display: table;
+}
+
+.cf::after {
+  clear: both;
+}

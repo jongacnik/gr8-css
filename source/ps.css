@@ -1,0 +1,5 @@
+
+.pss { position: static }
+.psr { position: relative }
+.psa { position: absolute }
+.psf { position: fixed }

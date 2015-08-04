@@ -1,0 +1,28 @@
+
+.bb { box-sizing: border-box }
+
+.fh  { height: 100% }
+.fhm { min-height: 100% }
+.fw  { width: 100% }
+
+.vw  { width: 100vw }
+.vh  { height: 100vh }
+
+.vabl { vertical-align: baseline }
+.vat  { vertical-align: top }
+.vam  { vertical-align: middle }
+.vab  { vertical-align: bottom }
+
+.t0 { top: 0 }
+.r0 { right: 0 }
+.b0 { bottom: 0 }
+.l0 { left: 0 }
+
+.cc { font-size: 0 }
+
+.ts { height: 1px }
+
+.oh { overflow: hidden }
+.os { overflow: scroll }
+.os-x { overflow-x: scroll }
+.os-y { overflow-y: scroll }

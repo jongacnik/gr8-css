@@ -1,0 +1,17 @@
+{
+  "name": "gr8",
+  "version": "1.0.0",
+  "description": "functional css layout utils",
+  "main": "gr8.css",
+  "dependencies": {},
+  "devDependencies": {
+    "cssnext": "^1.8.2",
+    "onchange": "^1.1.0"
+  },
+  "scripts": {
+    "build": "cssnext source/main.css | grep . > gr8.css",
+    "watch": "npm run build && onchange 'source/*.css' -- npm run build"
+  },
+  "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",
+  "license": "ISC"
+}

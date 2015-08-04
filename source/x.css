@@ -1,0 +1,30 @@
+
+.x { display: flex }
+.xw { flex-wrap: wrap }
+.xc { align-items: center }
+.xb { align-items: baseline }
+
+.x1 { width: calc(100%/1) }
+.x2 { width: calc(100%/2) }
+.x3 { width: calc(100%/3) }
+.x4 { width: calc(100%/4) }
+.x6 { width: calc(100%/6) }
+.x8 { width: calc(100%/8) }
+.x9 { width: calc(100%/9) }
+.x10 { width: calc(100%/10) }
+.x11 { width: calc(100%/11) }
+.x12 { width: calc(100%/12) }
+
+.xa { flex: 1 1 auto }
+.xn { flex: none }
+
+.xdr  { flex-direction: row }
+.xdrr { flex-direction: row-reverse }
+.xdc  { flex-direction: column }
+.xdcr { flex-direction: column-reverse }
+
+.xjc { justify-content: center }
+.xjb { justify-content: space-between }
+.xja { justify-content: space-around }
+.xjs { justify-content: flex-start }
+.xje { justify-content: flex-end }
