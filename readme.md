@@ -12,17 +12,17 @@ gr8 is split into multiple files that contain specific layout utilities.
 
 File | Contains
 --- | ---
-c.css | column
-co.css | column offsets
-p.css | padding
-m.css | margin
-x.css | flexbox
-d.css | display
-ps.css | positioning
-f.css | float
-h.css | header
-z.css | z-index
-etc.css | various
-main.css | options
+[c.css](https://github.com/amongiants/gr8/blob/master/source/c.css) | column
+[co.css](https://github.com/amongiants/gr8/blob/master/source/co.css) | column offsets
+[p.css](https://github.com/amongiants/gr8/blob/master/source/p.css) | padding
+[m.css](https://github.com/amongiants/gr8/blob/master/source/m.css) | margin
+[x.css](https://github.com/amongiants/gr8/blob/master/source/x.css) | flexbox
+[d.css](https://github.com/amongiants/gr8/blob/master/source/d.css) | display
+[ps.css](https://github.com/amongiants/gr8/blob/master/source/ps.css) | positioning
+[f.css](https://github.com/amongiants/gr8/blob/master/source/f.css) | float
+[h.css](https://github.com/amongiants/gr8/blob/master/source/h.css) | header
+[z.css](https://github.com/amongiants/gr8/blob/master/source/z.css) | z-index
+[etc.css](https://github.com/amongiants/gr8/blob/master/source/etc.css) | various
+[main.css](https://github.com/amongiants/gr8/blob/master/source/main.css) | options
 
 Default spacing / font size options can be changed in `source/main.css`. Build using script `npm run build` (uses [cssnext](http://cssnext.io)).
