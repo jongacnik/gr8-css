@@ -1,4 +1,5 @@
 
+.c-5  { box-sizing: border-box; width: calc(0.5/12*100%) }
 .c1  { box-sizing: border-box; width: calc(1/12*100%) }
 .c2  { box-sizing: border-box; width: calc(2/12*100%) }
 .c3  { box-sizing: border-box; width: calc(3/12*100%) }
@@ -13,6 +14,7 @@
 .c12 { box-sizing: border-box; width: calc(12/12*100%) }
 
 @media (--breakpoint-sm) {
+  .sm-c-5  { box-sizing: border-box; width: calc(0.5/12*100%) }
   .sm-c1  { box-sizing: border-box; width: calc(1/12*100%) }
   .sm-c2  { box-sizing: border-box; width: calc(2/12*100%) }
   .sm-c3  { box-sizing: border-box; width: calc(3/12*100%) }
@@ -28,6 +30,7 @@
 }
 
 @media (--breakpoint-md) {
+  .md-c-5  { box-sizing: border-box; width: calc(0.5/12*100%) }
   .md-c1  { box-sizing: border-box; width: calc(1/12*100%) }
   .md-c2  { box-sizing: border-box; width: calc(2/12*100%) }
   .md-c3  { box-sizing: border-box; width: calc(3/12*100%) }
@@ -43,6 +46,7 @@
 }
 
 @media (--breakpoint-lg) {
+  .lg-c-5  { box-sizing: border-box; width: calc(0.5/12*100%) }
   .lg-c1  { box-sizing: border-box; width: calc(1/12*100%) }
   .lg-c2  { box-sizing: border-box; width: calc(2/12*100%) }
   .lg-c3  { box-sizing: border-box; width: calc(3/12*100%) }
