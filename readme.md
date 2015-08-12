@@ -22,6 +22,7 @@ File | Contains
 [f.css](https://github.com/amongiants/gr8/blob/master/source/f.css) | float
 [h.css](https://github.com/amongiants/gr8/blob/master/source/h.css) | header
 [ta.css](https://github.com/amongiants/gr8/blob/master/source/ta.css) | text-align
+[bg.css](https://github.com/amongiants/gr8/blob/master/source/bg.css) | background
 [z.css](https://github.com/amongiants/gr8/blob/master/source/z.css) | z-index
 [etc.css](https://github.com/amongiants/gr8/blob/master/source/etc.css) | various
 [main.css](https://github.com/amongiants/gr8/blob/master/source/main.css) | options

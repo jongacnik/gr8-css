@@ -1,0 +1,22 @@
+
+.bgsc  { background-size: cover }
+.bgsct { background-size: contain }
+
+.bgpc { background-position: center }
+.bgpt { background-position: top }
+.bgpr { background-position: right }
+.bgpb { background-position: bottom }
+.bgpl { background-position: left }
+
+.bgrn { background-repeat: no-repeat }
+
+.bgc {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bgct {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
