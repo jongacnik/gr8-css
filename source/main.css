@@ -9,6 +9,7 @@
 @import 'x.css';
 @import 'z.css';
 @import 'ps.css';
+@import 'ta.css';
 @import 'etc.css';
 
 @custom-media --breakpoint-sm (min-width: 40em);

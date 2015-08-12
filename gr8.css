@@ -425,6 +425,16 @@
 .psr { position: relative }
 .psa { position: absolute }
 .psf { position: fixed }
+.tal  { text-align: left }
+.tar  { text-align: right }
+.tac  { text-align: center }
+.taj  { text-align: justify }
+.tafj { text-align: justify }
+.tafj:after { 
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
 .bb { box-sizing: border-box }
 .fh  { height: 100% }
 .fhm { min-height: 100% }
