@@ -264,12 +264,40 @@
   .lg-px4 { padding-left: 4rem; padding-right: 4rem }
   .lg-py4 { padding-top: 4rem; padding-bottom: 4rem }
 }
+.dn  { display: none }
 .db  { display: block }
 .dib { display: inline-block }
 .di  { display: inline }
 .dt  { display: table }
 .dtc { display: table-cell }
 .dtr { display: table-row }
+@media (min-width: 40em) {
+  .sm-dn  { display: none }
+  .sm-db  { display: block }
+  .sm-dib { display: inline-block }
+  .sm-di  { display: inline }
+  .sm-dt  { display: table }
+  .sm-dtc { display: table-cell }
+  .sm-dtr { display: table-row }
+}
+@media (min-width: 52em) {
+  .md-dn  { display: none }
+  .md-db  { display: block }
+  .md-dib { display: inline-block }
+  .md-di  { display: inline }
+  .md-dt  { display: table }
+  .md-dtc { display: table-cell }
+  .md-dtr { display: table-row }
+}
+@media (min-width: 64em) {
+  .lg-dn  { display: none }
+  .lg-db  { display: block }
+  .lg-dib { display: inline-block }
+  .lg-di  { display: inline }
+  .lg-dt  { display: table }
+  .lg-dtc { display: table-cell }
+  .lg-dtr { display: table-row }
+}
 .fl { float: left }
 .fr { float: right }
 .cf:before,
@@ -280,7 +308,7 @@
 .cf:after {
   clear: both;
 }
-.c-5  { box-sizing: border-box; width: 4.16667% }
+.c-5 { box-sizing: border-box; width: 4.16667% }
 .c1  { box-sizing: border-box; width: 8.33333% }
 .c2  { box-sizing: border-box; width: 16.66667% }
 .c3  { box-sizing: border-box; width: 25% }
@@ -294,7 +322,7 @@
 .c11 { box-sizing: border-box; width: 91.66667% }
 .c12 { box-sizing: border-box; width: 100% }
 @media (min-width: 40em) {
-  .sm-c-5  { box-sizing: border-box; width: 4.16667% }
+  .sm-c-5 { box-sizing: border-box; width: 4.16667% }
   .sm-c1  { box-sizing: border-box; width: 8.33333% }
   .sm-c2  { box-sizing: border-box; width: 16.66667% }
   .sm-c3  { box-sizing: border-box; width: 25% }
@@ -309,7 +337,7 @@
   .sm-c12 { box-sizing: border-box; width: 100% }
 }
 @media (min-width: 52em) {
-  .md-c-5  { box-sizing: border-box; width: 4.16667% }
+  .md-c-5 { box-sizing: border-box; width: 4.16667% }
   .md-c1  { box-sizing: border-box; width: 8.33333% }
   .md-c2  { box-sizing: border-box; width: 16.66667% }
   .md-c3  { box-sizing: border-box; width: 25% }
@@ -324,7 +352,7 @@
   .md-c12 { box-sizing: border-box; width: 100% }
 }
 @media (min-width: 64em) {
-  .lg-c-5  { box-sizing: border-box; width: 4.16667% }
+  .lg-c-5 { box-sizing: border-box; width: 4.16667% }
   .lg-c1  { box-sizing: border-box; width: 8.33333% }
   .lg-c2  { box-sizing: border-box; width: 16.66667% }
   .lg-c3  { box-sizing: border-box; width: 25% }
