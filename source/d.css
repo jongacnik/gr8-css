@@ -4,6 +4,7 @@
 .dib { display: inline-block }
 .di  { display: inline }
 .dt  { display: table }
+.df  { display: flex }
 .dtc { display: table-cell }
 .dtr { display: table-row }
 
@@ -13,6 +14,7 @@
   .sm-dib { display: inline-block }
   .sm-di  { display: inline }
   .sm-dt  { display: table }
+  .sm-df { display: flex }
   .sm-dtc { display: table-cell }
   .sm-dtr { display: table-row }
 }
@@ -23,6 +25,7 @@
   .md-dib { display: inline-block }
   .md-di  { display: inline }
   .md-dt  { display: table }
+  .md-df { display: flex }
   .md-dtc { display: table-cell }
   .md-dtr { display: table-row }
 }
@@ -33,6 +36,7 @@
   .lg-dib { display: inline-block }
   .lg-di  { display: inline }
   .lg-dt  { display: table }
+  .lg-df  { display: flex }
   .lg-dtc { display: table-cell }
   .lg-dtr { display: table-row }
 }
