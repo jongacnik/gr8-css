@@ -12,20 +12,20 @@ gr8 is split into multiple files that contain specific layout utilities.
 
 File | Contains
 --- | ---
-[_c.scss](https://github.com/amongiants/gr8/blob/master/source/c.scss) | column
-[_co.scss](https://github.com/amongiants/gr8/blob/master/source/co.scss) | column offsets
-[_p.scss](https://github.com/amongiants/gr8/blob/master/source/p.scss) | padding
-[_m.scss](https://github.com/amongiants/gr8/blob/master/source/m.scss) | margin
-[_x.scss](https://github.com/amongiants/gr8/blob/master/source/x.scss) | flexbox
-[_d.scss](https://github.com/amongiants/gr8/blob/master/source/d.scss) | display
-[_ps.scss](https://github.com/amongiants/gr8/blob/master/source/ps.scss) | positioning
-[_f.scss](https://github.com/amongiants/gr8/blob/master/source/f.scss) | float
-[_h.scss](https://github.com/amongiants/gr8/blob/master/source/h.scss) | header
-[_ta.scss](https://github.com/amongiants/gr8/blob/master/source/ta.scss) | text-align
-[_bg.scss](https://github.com/amongiants/gr8/blob/master/source/bg.scss) | background
-[_z.scss](https://github.com/amongiants/gr8/blob/master/source/z.scss) | z-index
-[_etc.scss](https://github.com/amongiants/gr8/blob/master/source/etc.scss) | various
-[_dev.scss](https://github.com/amongiants/gr8/blob/master/source/dev.scss) | dev helpers
+[_c.scss](https://github.com/amongiants/gr8/blob/master/source/_c.scss) | column
+[_co.scss](https://github.com/amongiants/gr8/blob/master/source/_co.scss) | column offsets
+[_p.scss](https://github.com/amongiants/gr8/blob/master/source/_p.scss) | padding
+[_m.scss](https://github.com/amongiants/gr8/blob/master/source/_m.scss) | margin
+[_x.scss](https://github.com/amongiants/gr8/blob/master/source/_x.scss) | flexbox
+[_d.scss](https://github.com/amongiants/gr8/blob/master/source/_d.scss) | display
+[_ps.scss](https://github.com/amongiants/gr8/blob/master/source/_ps.scss) | positioning
+[_f.scss](https://github.com/amongiants/gr8/blob/master/source/_f.scss) | float
+[_h.scss](https://github.com/amongiants/gr8/blob/master/source/_h.scss) | header
+[_ta.scss](https://github.com/amongiants/gr8/blob/master/source/_ta.scss) | text-align
+[_bg.scss](https://github.com/amongiants/gr8/blob/master/source/_bg.scss) | background
+[_z.scss](https://github.com/amongiants/gr8/blob/master/source/_z.scss) | z-index
+[_etc.scss](https://github.com/amongiants/gr8/blob/master/source/_etc.scss) | various
+[_dev.scss](https://github.com/amongiants/gr8/blob/master/source/_dev.scss) | dev helpers
 [main.scss](https://github.com/amongiants/gr8/blob/master/source/main.scss) | options
 
 ## Custom Build
