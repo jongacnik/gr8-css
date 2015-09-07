@@ -14,8 +14,8 @@ File | Contains
 --- | ---
 [c.css](https://github.com/amongiants/gr8/blob/master/source/c.css) | column
 [co.css](https://github.com/amongiants/gr8/blob/master/source/co.css) | column offsets
-[cn.css*](https://github.com/amongiants/gr8/blob/master/source/cn.css) | nested column
-[con.css*](https://github.com/amongiants/gr8/blob/master/source/con.css) | nested column offsets
+[cn.css](https://github.com/amongiants/gr8/blob/master/source/cn.css) | nested column
+[con.css](https://github.com/amongiants/gr8/blob/master/source/con.css) | nested column offsets
 [p.css](https://github.com/amongiants/gr8/blob/master/source/p.css) | padding
 [m.css](https://github.com/amongiants/gr8/blob/master/source/m.css) | margin
 [x.css](https://github.com/amongiants/gr8/blob/master/source/x.css) | flexbox
@@ -31,4 +31,4 @@ File | Contains
 
 Default spacing / font size options can be changed in `source/main.css`. Build using script `npm run build` (uses [cssnext](http://cssnext.io)).
 
-*Optional utilities. Uncomment in `source/main.css` and rebuild to enable.
+To DRASTICALLY decrease the size of gr8 you can disable nested columns and column offsets.
