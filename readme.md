@@ -27,6 +27,7 @@ File | Contains
 [bg.css](https://github.com/amongiants/gr8/blob/master/source/bg.css) | background
 [z.css](https://github.com/amongiants/gr8/blob/master/source/z.css) | z-index
 [etc.css](https://github.com/amongiants/gr8/blob/master/source/etc.css) | various
+[dev.css](https://github.com/amongiants/gr8/blob/master/source/dev.css) | dev helpers
 [main.css](https://github.com/amongiants/gr8/blob/master/source/main.css) | options
 
 Default spacing / font size options can be changed in `source/main.css`. Build using script `npm run build` (uses [cssnext](http://cssnext.io)).

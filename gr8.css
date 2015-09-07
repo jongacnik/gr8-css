@@ -1040,3 +1040,13 @@
 .os { overflow: scroll }
 .os-x { overflow-x: scroll }
 .os-y { overflow-y: scroll }
+.dev1 { outline: 1px solid #912eff }
+.dev2 { outline: 1px solid #5497ff }
+.dev3 { outline: 1px solid #51feff }
+.dev4 { outline: 1px solid #ff0000 }
+.dev5 { outline: 1px solid #00ff00 }
+.dev * { outline: 1px solid #912eff }
+.dev * > * { outline: 1px solid #5497ff }
+.dev * > * > * { outline: 1px solid #51feff }
+.dev * > * > * > * { outline: 1px solid #ff0000 }
+.dev * > * > * > * > * { outline: 1px solid #00ff00 }
