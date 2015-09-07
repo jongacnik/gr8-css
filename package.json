@@ -15,5 +15,5 @@
     "dist": "npm run build && npm run autoprefix"
   },
   "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",
-  "license": "ISC"
+  "license": "WTFPL"
 }
