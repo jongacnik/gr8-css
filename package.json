@@ -5,12 +5,14 @@
   "main": "gr8.css",
   "dependencies": {},
   "devDependencies": {
-    "cssnext": "^1.8.2",
-    "onchange": "^1.1.0"
+    "autoprefixer": "^6.0.1",
+    "node-sass": "^3.3.2",
+    "postcss-cli": "^2.1.0"
   },
   "scripts": {
-    "build": "cssnext source/main.css | grep . > gr8.css",
-    "watch": "npm run build && onchange 'source/*.css' -- npm run build"
+    "build": "node-sass source/main.scss --output-style compact | grep . > gr8.css",
+    "autoprefix": "postcss --use autoprefixer gr8.css -d . gr8.css",
+    "dist": "npm run build && npm run autoprefix"
   },
   "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",
   "license": "ISC"

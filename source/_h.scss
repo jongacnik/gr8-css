@@ -1,0 +1,5 @@
+@each $font in $fonts {
+  $i: index($fonts, $font);
+  h#{$i}  { font-size: $font }
+  .h#{$i} { font-size: $font }
+}

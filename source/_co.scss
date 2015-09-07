@@ -1,0 +1,36 @@
+@mixin col-offset ($column, $columns) {
+  margin-left: col-width($column, $columns);
+}
+
+.co-5 { @include col-offset(0.5, $cols) }
+@for $i from 1 through $cols {
+  .co#{$i} { @include col-offset($i, $cols) }
+}
+
+@if $nest {
+  @for $i from 1 through $cols - 1 {
+    .c#{$i} .co-5 { @include col-offset(0.5, $i) }
+    @for $j from 1 through $i {
+      .c#{$i} .co#{$j} { @include col-offset($j, $i) }
+    }
+  }
+}
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      .#{$bpn}-co-5 { @include col-offset(0.5, $cols) }
+      @for $i from 1 through $cols {
+        .#{$bpn}-co#{$i} { @include col-offset($i, $cols) }
+      }
+      @if $nest {
+        @for $i from 1 through $cols - 1 {
+          .#{$bpn}-c#{$i} .#{$bpn}-co-5 { @include col-offset(0.5, $i) }
+          @for $j from 1 through $i {
+            .#{$bpn}-c#{$i} .#{$bpn}-co#{$j} { @include col-offset($j, $i) }
+          }
+        }
+      }
+    }
+  }  
+}

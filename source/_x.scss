@@ -18,14 +18,10 @@
 .xjs { justify-content: flex-start }
 .xje { justify-content: flex-end }
 
-@media (--breakpoint-sm) {
-  .sm-x { display: flex }
-}
-
-@media (--breakpoint-md) {
-  .md-x { display: flex }
-}
-
-@media (--breakpoint-lg) {
-  .lg-x { display: flex }
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      .#{$bpn}-x { display: flex }
+    }
+  }  
 }

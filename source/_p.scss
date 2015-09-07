@@ -1,0 +1,38 @@
+.p0  { padding: 0 }
+.pt0 { padding-top: 0 }
+.pr0 { padding-right: 0 }
+.pb0 { padding-bottom: 0 }
+.pl0 { padding-left: 0 }
+
+@each $gap in $gaps {
+  $i: index($gaps, $gap);
+  .p#{$i}  { padding: $gap }
+  .pt#{$i} { padding-top: $gap }
+  .pr#{$i} { padding-right: $gap }
+  .pb#{$i} { padding-bottom: $gap }
+  .pl#{$i} { padding-left: $gap }
+  .px#{$i} { padding-left: $gap; padding-right: $gap }
+  .py#{$i} { padding-top: $gap; padding-bottom: $gap }
+}
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      .#{$bpn}-p0  { padding: 0 }
+      .#{$bpn}-pt0 { padding-top: 0 }
+      .#{$bpn}-pr0 { padding-right: 0 }
+      .#{$bpn}-pb0 { padding-bottom: 0 }
+      .#{$bpn}-pl0 { padding-left: 0 }
+      @each $gap in $gaps {
+        $i: index($gaps, $gap);
+        .#{$bpn}-p#{$i}  { padding: $gap }
+        .#{$bpn}-pt#{$i} { padding-top: $gap }
+        .#{$bpn}-pr#{$i} { padding-right: $gap }
+        .#{$bpn}-pb#{$i} { padding-bottom: $gap }
+        .#{$bpn}-pl#{$i} { padding-left: $gap }
+        .#{$bpn}-px#{$i} { padding-left: $gap; padding-right: $gap }
+        .#{$bpn}-py#{$i} { padding-top: $gap; padding-bottom: $gap }
+      }
+    }
+  }  
+}

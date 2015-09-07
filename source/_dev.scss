@@ -1,0 +1,18 @@
+$devcolors : (
+  'purp' : #912eff,
+  'blue' : #5497ff,
+  'teal' : #51feff,
+  'red'  : #ff0000,
+  'lime' : #00ff00
+);
+
+.dev1 { outline: 1px solid map-get($devcolors, 'purp') }
+.dev2 { outline: 1px solid map-get($devcolors, 'blue') }
+.dev3 { outline: 1px solid map-get($devcolors, 'teal') }
+.dev4 { outline: 1px solid map-get($devcolors, 'red') }
+.dev5 { outline: 1px solid map-get($devcolors, 'lime') }
+.dev * { outline: 1px solid map-get($devcolors, 'purp') }
+.dev * > * { outline: 1px solid map-get($devcolors, 'blue') }
+.dev * > * > * { outline: 1px solid map-get($devcolors, 'teal') }
+.dev * > * > * > * { outline: 1px solid map-get($devcolors, 'red') }
+.dev * > * > * > * > * { outline: 1px solid map-get($devcolors, 'lime') }

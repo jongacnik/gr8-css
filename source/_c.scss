@@ -1,0 +1,42 @@
+$cols : 12;
+
+@function col-width ($column, $columns) {
+  @return $column / $columns * 100%;
+}
+
+@mixin col ($column, $columns) {
+  box-sizing: border-box; width: col-width($column, $columns);
+}
+
+.c-5 { @include col(0.5, $cols) }
+@for $i from 1 through $cols {
+  .c#{$i} { @include col($i, $cols) }
+}
+
+@if $nest {
+  @for $i from 1 through $cols - 1 {
+    .c#{$i} .c-5 { @include col(0.5, $i) }
+    @for $j from 1 through $i {
+      .c#{$i} .c#{$j} { @include col($j, $i) }
+    }
+  }
+}
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      .#{$bpn}-c-5 { @include col(0.5, $cols) }
+      @for $i from 1 through $cols {
+        .#{$bpn}-c#{$i} { @include col($i, $cols) }
+      }
+      @if $nest {
+        @for $i from 1 through $cols - 1 {
+          .#{$bpn}-c#{$i} .#{$bpn}-5 { @include col(0.5, $i) }
+          @for $j from 1 through $i {
+            .#{$bpn}-c#{$i} .#{$bpn}-c#{$j} { @include col($j, $i) }
+          }
+        }
+      }
+    }
+  }  
+}
