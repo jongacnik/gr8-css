@@ -269,7 +269,6 @@
 .dib { display: inline-block }
 .di  { display: inline }
 .dt  { display: table }
-.df  { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
 .dtc { display: table-cell }
 .dtr { display: table-row }
 @media (min-width: 40em) {
@@ -278,7 +277,6 @@
   .sm-dib { display: inline-block }
   .sm-di  { display: inline }
   .sm-dt  { display: table }
-  .sm-df { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
   .sm-dtc { display: table-cell }
   .sm-dtr { display: table-row }
 }
@@ -288,7 +286,6 @@
   .md-dib { display: inline-block }
   .md-di  { display: inline }
   .md-dt  { display: table }
-  .md-df { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
   .md-dtc { display: table-cell }
   .md-dtr { display: table-row }
 }
@@ -298,7 +295,6 @@
   .lg-dib { display: inline-block }
   .lg-di  { display: inline }
   .lg-dt  { display: table }
-  .lg-df  { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
   .lg-dtc { display: table-cell }
   .lg-dtr { display: table-row }
 }
@@ -426,7 +422,7 @@
 }
 /*@import 'cn.css';*/
 /*@import 'con.css';*/
-.x { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
+.x  { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
 .xw { -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap }
 .xc { -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center }
 .xb { -webkit-box-align: baseline; -webkit-align-items: baseline; -ms-flex-align: baseline; align-items: baseline }
@@ -441,6 +437,15 @@
 .xja { -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around }
 .xjs { -webkit-box-pack: start; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start }
 .xje { -webkit-box-pack: end; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end }
+@media (min-width: 40em) {
+  .sm-x { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
+}
+@media (min-width: 52em) {
+  .md-x { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
+}
+@media (min-width: 64em) {
+  .lg-x { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex }
+}
 .z1 { z-index: 1 }
 .z2 { z-index: 2 }
 .z3 { z-index: 3 }

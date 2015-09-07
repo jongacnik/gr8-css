@@ -1,5 +1,5 @@
 
-.x { display: flex }
+.x  { display: flex }
 .xw { flex-wrap: wrap }
 .xc { align-items: center }
 .xb { align-items: baseline }
@@ -17,3 +17,15 @@
 .xja { justify-content: space-around }
 .xjs { justify-content: flex-start }
 .xje { justify-content: flex-end }
+
+@media (--breakpoint-sm) {
+  .sm-x { display: flex }
+}
+
+@media (--breakpoint-md) {
+  .md-x { display: flex }
+}
+
+@media (--breakpoint-lg) {
+  .lg-x { display: flex }
+}
