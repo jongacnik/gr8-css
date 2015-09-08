@@ -20,8 +20,10 @@ $fonts : (
   0.75rem
 );
 
-$resp : true;
-$nest : true;
+$cols  : 12;
+$float : false;
+$nest  : true;
+$resp  : true;
 
 @import 'h';
 @import 'm';

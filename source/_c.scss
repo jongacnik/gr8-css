@@ -1,11 +1,10 @@
-$cols : 12;
-
 @function col-width ($column, $columns) {
   @return $column / $columns * 100%;
 }
 
 @mixin col ($column, $columns) {
   box-sizing: border-box; width: col-width($column, $columns);
+  @if $float { float: left; }
 }
 
 .c-5 { @include col(0.5, $cols) }
