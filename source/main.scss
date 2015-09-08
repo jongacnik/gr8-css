@@ -1,7 +1,7 @@
 $bps : (
-  'sm' : '(min-width:40em)',
-  'md' : '(min-width:52em)',
-  'lg' : '(min-width:64em)'
+  'lg' : '(max-width:64em)',
+  'md' : '(max-width:52em)',
+  'sm' : '(max-width:40em)'
 );
 
 $gaps : (

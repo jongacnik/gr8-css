@@ -8,11 +8,11 @@
 }
 
 @if $nest {
-  @for $i from 1 through $cols - 1 {
-    .c#{$i} .co-5 { @include col-offset(0.5, $i) }
-    @for $j from 1 through $i {
+  @for $i from $cols - 1 through 1 {
+    @for $j from $i through 1 {
       .c#{$i} .co#{$j} { @include col-offset($j, $i) }
     }
+    .c#{$i} .co-5 { @include col-offset(0.5, $i) }
   }
 }
 
@@ -24,11 +24,11 @@
         .#{$bpn}-co#{$i} { @include col-offset($i, $cols) }
       }
       @if $nest {
-        @for $i from 1 through $cols - 1 {
-          .#{$bpn}-c#{$i} .#{$bpn}-co-5 { @include col-offset(0.5, $i) }
-          @for $j from 1 through $i {
+        @for $i from $cols - 1 through 1 {
+          @for $j from $i through 1 {
             .#{$bpn}-c#{$i} .#{$bpn}-co#{$j} { @include col-offset($j, $i) }
           }
+          .#{$bpn}-c#{$i} .#{$bpn}-co-5 { @include col-offset(0.5, $i) }
         }
       }
     }

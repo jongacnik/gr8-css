@@ -14,11 +14,11 @@ $cols : 12;
 }
 
 @if $nest {
-  @for $i from 1 through $cols - 1 {
-    .c#{$i} .c-5 { @include col(0.5, $i) }
-    @for $j from 1 through $i {
+  @for $i from $cols - 1 through 1 {
+    @for $j from $i through 1 {
       .c#{$i} .c#{$j} { @include col($j, $i) }
     }
+    .c#{$i} .c-5 { @include col(0.5, $i) }
   }
 }
 
@@ -30,11 +30,11 @@ $cols : 12;
         .#{$bpn}-c#{$i} { @include col($i, $cols) }
       }
       @if $nest {
-        @for $i from 1 through $cols - 1 {
-          .#{$bpn}-c#{$i} .#{$bpn}-5 { @include col(0.5, $i) }
-          @for $j from 1 through $i {
+        @for $i from $cols - 1 through 1 {
+          @for $j from $i through 1 {
             .#{$bpn}-c#{$i} .#{$bpn}-c#{$j} { @include col($j, $i) }
           }
+          .#{$bpn}-c#{$i} .#{$bpn}-5 { @include col(0.5, $i) }
         }
       }
     }
