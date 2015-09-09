@@ -10,8 +10,9 @@
     "postcss-cli": "^2.1.0"
   },
   "scripts": {
-    "build": "node-sass source/main.scss --output-style compact | grep . > gr8.css",
+    "build": "node-sass source/main.scss --output-style compact > gr8.css",
     "autoprefix": "postcss --use autoprefixer gr8.css -d . gr8.css",
+    "format": "",
     "dist": "npm run build && npm run autoprefix"
   },
   "author": "Jon Gacnik <jon@folderstudio.com> (http://jongacnik.com)",

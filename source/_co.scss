@@ -2,6 +2,7 @@
   margin-left: col-width($column, $columns);
 }
 
+.co0 { margin-left: 0 }
 .co-5 { @include col-offset(0.5, $cols) }
 @for $i from 1 through $cols {
   .co#{$i} { @include col-offset($i, $cols) }
@@ -19,6 +20,7 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
+      .#{$bpn}-co0 { margin-left: 0 }
       .#{$bpn}-co-5 { @include col-offset(0.5, $cols) }
       @for $i from 1 through $cols {
         .#{$bpn}-co#{$i} { @include col-offset($i, $cols) }
