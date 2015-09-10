@@ -29,7 +29,7 @@
         .#{$bpn}-c#{$i} { @include col($i, $cols) }
       }
       @if $nest {
-        @for $i from $cols - 1 through 1 {
+        @for $i from $cols through 1 {
           @for $j from $i through 1 {
             .#{$bpn}-c#{$i} .#{$bpn}-c#{$j} { @include col($j, $i) }
           }
