@@ -4,11 +4,13 @@
     .gx { padding-left: $gut; padding-right: $gut }
     .gy { padding-top: $gut; padding-bottom: $gut }
   } @else {
-    @if map-has-key($bps, $i) {
-      @media #{map-get($bps, $i)} {
-        .#{$i}-g  { padding: $gut }
-        .#{$i}-gx { padding-left: $gut; padding-right: $gut }
-        .#{$i}-gy { padding-top: $gut; padding-bottom: $gut }
+    @if $resp {
+      @if map-has-key($bps, $i) {
+        @media #{map-get($bps, $i)} {
+          .#{$i}-g  { padding: $gut }
+          .#{$i}-gx { padding-left: $gut; padding-right: $gut }
+          .#{$i}-gy { padding-top: $gut; padding-bottom: $gut }
+        }
       }
     }
   }

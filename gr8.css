@@ -800,6 +800,9 @@
   .sm-c2 .sm-co-5 { margin-left: 25%; }
   .sm-c1 .sm-co1 { margin-left: 100%; }
   .sm-c1 .sm-co-5 { margin-left: 50%; } }
+.g { padding: 1rem; }
+.gx { padding-left: 1rem; padding-right: 1rem; }
+.gy { padding-top: 1rem; padding-bottom: 1rem; }
 .p0 { padding: 0; }
 .pt0 { padding-top: 0; }
 .pr0 { padding-right: 0; }
@@ -1040,9 +1043,6 @@
   .sm-mr4 { margin-right: 4rem; }
   .sm-mb4 { margin-bottom: 4rem; }
   .sm-ml4 { margin-left: 4rem; } }
-.g { padding: 1rem; }
-.gx { padding-left: 1rem; padding-right: 1rem; }
-.gy { padding-top: 1rem; padding-bottom: 1rem; }
 .dn { display: none; }
 .db { display: block; }
 .dib { display: inline-block; }
