@@ -1,14 +1,18 @@
 $bps : (
-  lg : (max-width:64em),
-  md : (max-width:52em),
-  sm : (max-width:40em)
+  'lg' : '(max-width:64em)',
+  'md' : '(max-width:52em)',
+  'sm' : '(max-width:40em)'
 );
 
 $gaps : (
-  1 : 0.5rem,
-  2 : 1rem,
-  3 : 2rem,
-  4 : 4rem
+  '1' : 0.5rem,
+  '2' : 1rem,
+  '3' : 2rem,
+  '4' : 4rem
+);
+
+$guts : (
+  '!' : 1rem
 );
 
 $fonts : (
@@ -25,16 +29,17 @@ $float : false;
 $nest  : true;
 $resp  : true;
 
-@import 'h';
-@import 'm';
-@import 'p';
-@import 'd';
-@import 'f';
 @import 'c';
 @import 'co';
+@import 'm';
+@import 'p';
+@import 'g';
+@import 'd';
 @import 'x';
-@import 'z';
+@import 'f';
 @import 'ps';
+@import 'z';
+@import 'h';
 @import 'ta';
 @import 'bg';
 @import 'etc';
