@@ -4,8 +4,12 @@
 .fhm { min-height: 100% }
 .fw  { width: 100% }
 
-.vw  { width: 100vw }
-.vh  { height: 100vh }
+.vw { width: 100vw }
+.vh { height: 100vh }
+.vwmn { min-width: 100vw }
+.vhmn { min-height: 100vh }
+.vwmx { max-width: 100vw }
+.vhmx { max-height: 100vh }
 
 .vabl { vertical-align: baseline }
 .vat  { vertical-align: top }
@@ -23,5 +27,5 @@
 
 .oh { overflow: hidden }
 .os { overflow: scroll }
-.os-x { overflow-x: scroll }
-.os-y { overflow-y: scroll }
+.osx { overflow-x: scroll }
+.osy { overflow-y: scroll }

@@ -1151,6 +1151,10 @@
 .fw { width: 100%; }
 .vw { width: 100vw; }
 .vh { height: 100vh; }
+.vwmn { min-width: 100vw; }
+.vhmn { min-height: 100vh; }
+.vwmx { max-width: 100vw; }
+.vhmx { max-height: 100vh; }
 .vabl { vertical-align: baseline; }
 .vat { vertical-align: top; }
 .vam { vertical-align: middle; }
@@ -1163,8 +1167,8 @@
 .ts { height: 1px; }
 .oh { overflow: hidden; }
 .os { overflow: scroll; }
-.os-x { overflow-x: scroll; }
-.os-y { overflow-y: scroll; }
+.osx { overflow-x: scroll; }
+.osy { overflow-y: scroll; }
 .dev1 { outline: 1px solid #912eff; }
 .dev2 { outline: 1px solid #5497ff; }
 .dev3 { outline: 1px solid #51feff; }
