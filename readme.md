@@ -14,9 +14,9 @@ File | Contains
 --- | ---
 [_c.scss](https://github.com/amongiants/gr8/blob/master/source/_c.scss) | column
 [_co.scss](https://github.com/amongiants/gr8/blob/master/source/_co.scss) | column offsets
+[_g.scss](https://github.com/amongiants/gr8/blob/master/source/_g.scss) | gutter
 [_p.scss](https://github.com/amongiants/gr8/blob/master/source/_p.scss) | padding
 [_m.scss](https://github.com/amongiants/gr8/blob/master/source/_m.scss) | margin
-[_g.scss](https://github.com/amongiants/gr8/blob/master/source/_g.scss) | gutter
 [_d.scss](https://github.com/amongiants/gr8/blob/master/source/_d.scss) | display
 [_x.scss](https://github.com/amongiants/gr8/blob/master/source/_x.scss) | flexbox
 [_f.scss](https://github.com/amongiants/gr8/blob/master/source/_f.scss) | float
