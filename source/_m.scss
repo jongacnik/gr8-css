@@ -4,8 +4,7 @@
 .mb0 { margin-bottom: 0 }
 .ml0 { margin-left: 0 }
 
-@each $gap in $gaps {
-  $i: index($gaps, $gap);
+@each $i, $gap in $gaps {
   .m#{$i}  { margin: $gap }
   .mt#{$i} { margin-top: $gap }
   .mr#{$i} { margin-right: $gap }
@@ -21,8 +20,7 @@
       .#{$bpn}-mr0 { margin-right: 0 }
       .#{$bpn}-mb0 { margin-bottom: 0 }
       .#{$bpn}-ml0 { margin-left: 0 }
-      @each $gap in $gaps {
-        $i: index($gaps, $gap);
+      @each $i, $gap in $gaps {
         .#{$bpn}-m#{$i}  { margin: $gap }
         .#{$bpn}-mt#{$i} { margin-top: $gap }
         .#{$bpn}-mr#{$i} { margin-right: $gap }
@@ -30,5 +28,5 @@
         .#{$bpn}-ml#{$i} { margin-left: $gap }
       }
     }
-  }  
+  }
 }

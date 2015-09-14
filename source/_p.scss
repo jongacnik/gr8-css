@@ -6,8 +6,7 @@
 .px0 { padding-left: 0; padding-right: 0 }
 .py0 { padding-top: 0; padding-bottom: 0 }
 
-@each $gap in $gaps {
-  $i: index($gaps, $gap);
+@each $i, $gap in $gaps {
   .p#{$i}  { padding: $gap }
   .pt#{$i} { padding-top: $gap }
   .pr#{$i} { padding-right: $gap }
@@ -27,8 +26,7 @@
       .#{$bpn}-pl0 { padding-left: 0 }
       .#{$bpn}-px0 { padding-left: 0; padding-right: 0 }
       .#{$bpn}-py0 { padding-top: 0; padding-bottom: 0 }
-      @each $gap in $gaps {
-        $i: index($gaps, $gap);
+      @each $i, $gap in $gaps {
         .#{$bpn}-p#{$i}  { padding: $gap }
         .#{$bpn}-pt#{$i} { padding-top: $gap }
         .#{$bpn}-pr#{$i} { padding-right: $gap }
@@ -38,5 +36,5 @@
         .#{$bpn}-py#{$i} { padding-top: $gap; padding-bottom: $gap }
       }
     }
-  }  
+  }
 }
