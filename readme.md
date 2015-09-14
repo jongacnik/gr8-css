@@ -16,14 +16,15 @@ File | Contains
 [_co.scss](https://github.com/amongiants/gr8/blob/master/source/_co.scss) | column offsets
 [_p.scss](https://github.com/amongiants/gr8/blob/master/source/_p.scss) | padding
 [_m.scss](https://github.com/amongiants/gr8/blob/master/source/_m.scss) | margin
-[_x.scss](https://github.com/amongiants/gr8/blob/master/source/_x.scss) | flexbox
+[_g.scss](https://github.com/amongiants/gr8/blob/master/source/_g.scss) | gutter
 [_d.scss](https://github.com/amongiants/gr8/blob/master/source/_d.scss) | display
-[_ps.scss](https://github.com/amongiants/gr8/blob/master/source/_ps.scss) | positioning
+[_x.scss](https://github.com/amongiants/gr8/blob/master/source/_x.scss) | flexbox
 [_f.scss](https://github.com/amongiants/gr8/blob/master/source/_f.scss) | float
+[_ps.scss](https://github.com/amongiants/gr8/blob/master/source/_ps.scss) | positioning
+[_z.scss](https://github.com/amongiants/gr8/blob/master/source/_z.scss) | z-index
 [_h.scss](https://github.com/amongiants/gr8/blob/master/source/_h.scss) | header
 [_ta.scss](https://github.com/amongiants/gr8/blob/master/source/_ta.scss) | text-align
 [_bg.scss](https://github.com/amongiants/gr8/blob/master/source/_bg.scss) | background
-[_z.scss](https://github.com/amongiants/gr8/blob/master/source/_z.scss) | z-index
 [_etc.scss](https://github.com/amongiants/gr8/blob/master/source/_etc.scss) | various
 [_dev.scss](https://github.com/amongiants/gr8/blob/master/source/_dev.scss) | dev helpers
 [main.scss](https://github.com/amongiants/gr8/blob/master/source/main.scss) | options
