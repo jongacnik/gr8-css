@@ -3,6 +3,7 @@
 .xc { align-items: center }
 .xb { align-items: baseline }
 
+.xx { flex: 1 }
 .xa { flex: 1 1 auto }
 .xn { flex: none }
 
@@ -33,5 +34,5 @@
         .#{$bpn}-xo#{$i} { order: #{$i} }
       }
     }
-  }  
+  }
 }
