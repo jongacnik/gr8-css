@@ -24,18 +24,18 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      .#{$bpn}-c-5 { @include col(0.5, $cols) }
+      [#{$bpn}~="c-5"] { @include col(0.5, $cols) }
       @for $i from 1 through $cols {
-        .#{$bpn}-c#{$i} { @include col($i, $cols) }
+        [#{$bpn}~="c#{$i}"] { @include col($i, $cols) }
       }
       @if $nest {
         @for $i from $cols through 1 {
           @for $j from $i through 1 {
-            .#{$bpn}-c#{$i} .#{$bpn}-c#{$j} { @include col($j, $i) }
+            [#{$bpn}~="c#{$i}"] [#{$bpn}~="c#{$j}"] { @include col($j, $i) }
           }
-          .#{$bpn}-c#{$i} .#{$bpn}-5 { @include col(0.5, $i) }
+          [#{$bpn}~="c#{$i}"] [#{$bpn}~="c-5"] { @include col(0.5, $i) }
         }
       }
     }
-  }  
+  }
 }

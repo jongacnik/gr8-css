@@ -2,3 +2,14 @@
 .psr { position: relative }
 .psa { position: absolute }
 .psf { position: fixed }
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      [#{$bpn}~="pss"] { position: static }
+      [#{$bpn}~="psr"] { position: relative }
+      [#{$bpn}~="psa"] { position: absolute }
+      [#{$bpn}~="psf"] { position: fixed }
+    }
+  }
+}

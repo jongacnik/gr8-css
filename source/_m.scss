@@ -15,17 +15,17 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      .#{$bpn}-m0  { margin: 0 }
-      .#{$bpn}-mt0 { margin-top: 0 }
-      .#{$bpn}-mr0 { margin-right: 0 }
-      .#{$bpn}-mb0 { margin-bottom: 0 }
-      .#{$bpn}-ml0 { margin-left: 0 }
+      [#{$bpn}="m0"]  { margin: 0 }
+      [#{$bpn}="mt0"] { margin-top: 0 }
+      [#{$bpn}="mr0"] { margin-right: 0 }
+      [#{$bpn}="mb0"] { margin-bottom: 0 }
+      [#{$bpn}="ml0"] { margin-left: 0 }
       @each $i, $gap in $gaps {
-        .#{$bpn}-m#{$i}  { margin: $gap }
-        .#{$bpn}-mt#{$i} { margin-top: $gap }
-        .#{$bpn}-mr#{$i} { margin-right: $gap }
-        .#{$bpn}-mb#{$i} { margin-bottom: $gap }
-        .#{$bpn}-ml#{$i} { margin-left: $gap }
+        [#{$bpn}="m#{$i}"]  { margin: $gap }
+        [#{$bpn}="mt#{$i}"] { margin-top: $gap }
+        [#{$bpn}="mr#{$i}"] { margin-right: $gap }
+        [#{$bpn}="mb#{$i}"] { margin-bottom: $gap }
+        [#{$bpn}="ml#{$i}"] { margin-left: $gap }
       }
     }
   }

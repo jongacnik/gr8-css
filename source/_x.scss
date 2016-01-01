@@ -1,11 +1,17 @@
 .x  { display: flex }
-.xw { flex-wrap: wrap }
-.xc { align-items: center }
-.xb { align-items: baseline }
-
 .xx { flex: 1 }
 .xa { flex: 1 1 auto }
 .xn { flex: none }
+
+.xw  { flex-wrap: wrap }
+.xwr { flex-wrap: wrap-reverse }
+.xwn { flex-wrap: nowrap }
+
+.xac { align-items: center }
+.xab { align-items: baseline }
+.xas { align-items: stretch }
+.xafs { align-items: flex-start }
+.xafe { align-items: flex-end }
 
 .xdr  { flex-direction: row }
 .xdrr { flex-direction: row-reverse }
@@ -27,11 +33,11 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      .#{$bpn}-x { display: flex }
-      .#{$bpn}-xot { order: -1 }
-      .#{$bpn}-xob { order: 99 }
+      [#{$bpn}="x"] { display: flex }
+      [#{$bpn}="xot"] { order: -1 }
+      [#{$bpn}="xob"] { order: 99 }
       @for $i from 1 through 4 {
-        .#{$bpn}-xo#{$i} { order: #{$i} }
+        [#{$bpn}="xo#{$i}"] { order: #{$i} }
       }
     }
   }

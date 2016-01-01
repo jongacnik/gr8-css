@@ -1,0 +1,25 @@
+$bps : (
+  'xl' : '(max-width:1439px)',
+  'lg' : '(max-width:1260px)',
+  'md' : '(max-width:1023px)',
+  'sm' : '(max-width:767px)'
+);
+
+$gaps : (
+  '1' : 0.5rem,
+  '2' : 1rem
+);
+
+$guts : (
+  '!' : 1rem
+);
+
+$fonts : (
+  2rem,
+  1rem
+);
+
+$cols  : 12;
+$float : false;
+$nest  : true;
+$resp  : true;

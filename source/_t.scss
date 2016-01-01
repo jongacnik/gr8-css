@@ -1,0 +1,38 @@
+.tal  { text-align: left }
+.tar  { text-align: right }
+.tac  { text-align: center }
+.taj  { text-align: justify }
+
+.tafj { text-align: justify }
+.tafj:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.ttu { text-transform: uppercase }
+.ttl { text-transform: lowercase }
+.ttc { text-transform: capitalize }
+.ttn { text-transform: none }
+
+.tdu { text-decoration: underline }
+.tdo { text-decoration: overline }
+.tdl { text-decoration: line-through }
+.tdn { text-decoration: none }
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      [#{$bpn}~="tal"]  { text-align: left }
+      [#{$bpn}~="tar"]  { text-align: right }
+      [#{$bpn}~="tac"]  { text-align: center }
+      [#{$bpn}~="taj"]  { text-align: justify }
+      [#{$bpn}~="tafj"]  { text-align: justify }
+      [#{$bpn}~="tafj"]:after {
+        content: "";
+        display: inline-block;
+        width: 100%;
+      }
+    }
+  }
+}

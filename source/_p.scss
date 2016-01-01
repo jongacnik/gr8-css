@@ -19,21 +19,21 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      .#{$bpn}-p0  { padding: 0 }
-      .#{$bpn}-pt0 { padding-top: 0 }
-      .#{$bpn}-pr0 { padding-right: 0 }
-      .#{$bpn}-pb0 { padding-bottom: 0 }
-      .#{$bpn}-pl0 { padding-left: 0 }
-      .#{$bpn}-px0 { padding-left: 0; padding-right: 0 }
-      .#{$bpn}-py0 { padding-top: 0; padding-bottom: 0 }
+      [#{$bpn}~="p0"]  { padding: 0 }
+      [#{$bpn}~="pt0"] { padding-top: 0 }
+      [#{$bpn}~="pr0"] { padding-right: 0 }
+      [#{$bpn}~="pb0"] { padding-bottom: 0 }
+      [#{$bpn}~="pl0"] { padding-left: 0 }
+      [#{$bpn}~="px0"] { padding-left: 0; padding-right: 0 }
+      [#{$bpn}~="py0"] { padding-top: 0; padding-bottom: 0 }
       @each $i, $gap in $gaps {
-        .#{$bpn}-p#{$i}  { padding: $gap }
-        .#{$bpn}-pt#{$i} { padding-top: $gap }
-        .#{$bpn}-pr#{$i} { padding-right: $gap }
-        .#{$bpn}-pb#{$i} { padding-bottom: $gap }
-        .#{$bpn}-pl#{$i} { padding-left: $gap }
-        .#{$bpn}-px#{$i} { padding-left: $gap; padding-right: $gap }
-        .#{$bpn}-py#{$i} { padding-top: $gap; padding-bottom: $gap }
+        [#{$bpn}~="p#{$i}"]  { padding: $gap }
+        [#{$bpn}~="pt#{$i}"] { padding-top: $gap }
+        [#{$bpn}~="pr#{$i}"] { padding-right: $gap }
+        [#{$bpn}~="pb#{$i}"] { padding-bottom: $gap }
+        [#{$bpn}~="pl#{$i}"] { padding-left: $gap }
+        [#{$bpn}~="px#{$i}"] { padding-left: $gap; padding-right: $gap }
+        [#{$bpn}~="py#{$i}"] { padding-top: $gap; padding-bottom: $gap }
       }
     }
   }

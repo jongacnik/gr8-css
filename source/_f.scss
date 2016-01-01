@@ -11,3 +11,13 @@
 .cf::after {
   clear: both;
 }
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      [#{$bpn}="fl"] { float: left!important }
+      [#{$bpn}="fr"] { float: right!important }
+      [#{$bpn}="fn"] { float: none!important }
+    }
+  }
+}

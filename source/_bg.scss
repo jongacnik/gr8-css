@@ -8,14 +8,27 @@
 .bgpl { background-position: left }
 
 .bgrn { background-repeat: no-repeat }
+.bgrx { background-repeat: repeat-x }
+.bgry { background-repeat: repeat-y }
 
 .bgc {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .bgct {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.bgn { background: none }
+
+@if $resp {
+  @each $bpn, $bp in $bps {
+    @media #{$bp} {
+      [#{$bpn}~="bgn"] { background: none!important }
+    }
+  }
 }

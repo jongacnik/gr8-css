@@ -1,15 +1,23 @@
 @each $i, $gut in $guts {
   @if $i == '!' {
     .g  { padding: $gut }
+    .gl { padding-left: $gut; }
+    .gr { padding-right: $gut; }
+    .gt { padding-top: $gut; }
+    .gb { padding-bottom: $gut; }
     .gx { padding-left: $gut; padding-right: $gut }
     .gy { padding-top: $gut; padding-bottom: $gut }
   } @else {
     @if $resp {
       @if map-has-key($bps, $i) {
         @media #{map-get($bps, $i)} {
-          .#{$i}-g  { padding: $gut }
-          .#{$i}-gx { padding-left: $gut; padding-right: $gut }
-          .#{$i}-gy { padding-top: $gut; padding-bottom: $gut }
+          .g  { padding: $gut }
+          .gl { padding-left: $gut; }
+          .gr { padding-right: $gut; }
+          .gt { padding-top: $gut; }
+          .gb { padding-bottom: $gut; }
+          .gx { padding-left: $gut; padding-right: $gut }
+          .gy { padding-top: $gut; padding-bottom: $gut }
         }
       }
     }

@@ -9,13 +9,13 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      .#{$bpn}-dn  { display: none }
-      .#{$bpn}-db  { display: block }
-      .#{$bpn}-dib { display: inline-block }
-      .#{$bpn}-di  { display: inline }
-      .#{$bpn}-dt  { display: table }
-      .#{$bpn}-dtc { display: table-cell }
-      .#{$bpn}-dtr { display: table-row }
+      [#{$bpn}="dn"]  { display: none }
+      [#{$bpn}="db"]  { display: block }
+      [#{$bpn}="dib"] { display: inline-block }
+      [#{$bpn}="di"]  { display: inline }
+      [#{$bpn}="dt"]  { display: table }
+      [#{$bpn}="dtc"] { display: table-cell }
+      [#{$bpn}="dtr"] { display: table-row }
     }
-  }  
+  }
 }
