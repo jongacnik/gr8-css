@@ -30,6 +30,20 @@ File | Contains
 [_options.scss](https://github.com/jongacnik/gr8/blob/master/source/_options.scss) | options
 [main.scss](https://github.com/jongacnik/gr8/blob/master/source/main.scss) | main
 
+## Responsive
+
+Custom attributes are used to define responsive values. The names of the attributes are the keys of the breakpoints set in the options.
+
+```
+  <div
+    class="c2"
+    xl="c3"
+    lg="c4"
+    md="c6"
+    sm="c12"
+  ></div>
+```
+
 ## Custom Build
 
 gr8 is super flexible and you'll probably want to make use of customizing defaults.
