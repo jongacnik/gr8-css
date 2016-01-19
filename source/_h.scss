@@ -1,14 +1,15 @@
-@each $font in $fonts {
-  $i: index($fonts, $font);
-  .h#{$i}, h#{$i} { font-size: $font }
+@each $i, $font in $fonts {
+  .h#{$i} { font-size: $font }
+  @if $htags {
+    h#{$i} { font-size: $font }
+  }
 }
 
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      @each $font in $fonts {
-        $i: index($fonts, $font);
-        [#{$bpn}~="h#{$i}"], h#{$i} { font-size: $font }
+      @each $i, $font in $fonts {
+        [#{$bpn}~="h#{$i}"] { font-size: $font }
       }
     }
   }

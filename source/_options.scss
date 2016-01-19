@@ -15,15 +15,16 @@ $guts : (
 );
 
 $fonts : (
-  6.4rem,
-  3.2rem,
-  2.4rem,
-  1.6rem,
-  1.2rem,
-  1.0rem
+  '1' : 6.4rem,
+  '2' : 3.2rem,
+  '3' : 2.4rem,
+  '4' : 1.6rem,
+  '5' : 1.2rem,
+  '6' : 1.0rem
 );
 
 $cols  : 12;
 $float : false;
+$htags : true;
 $nest  : true;
 $resp  : true;
