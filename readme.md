@@ -1,8 +1,8 @@
 # gr8
 
-Functional css layout utilities. Drop `gr8.css` into your project and begin assigning classes.
+Functional css layout utilities & command line tool.
 
-**Documentation coming, eventually...**
+**Full documentation coming, eventually...**
 
 s/o [gravitons](https://github.com/jxnblk/gravitons), [Basscss](http://basscss.com) and [f(css)](http://www.jon.gold/2015/07/functional-css/).
 
@@ -44,15 +44,44 @@ Custom attributes are used to define responsive values. The names of the attribu
   ></div>
 ```
 
-## Custom Build
+## Customization
 
-gr8 is super flexible and you'll probably want to make use of customizing defaults.
+Breakpoints, whitespace, font size, responsive classes and nested columns can be changed in `source/_options.scss`. To add more/fewer breakpoints, whitespace, or font sizes, add/remove elements from the arrays.
+
+If using nested columns and nested column offsets I recommend using something like [purify-css](https://www.npmjs.com/package/purify-css).
+
+## Command Line Tool
+
+Expose `gr8` command to quickly add the source of gr8 to a project.
+
+```
+npm i gr8 -g
+```
+
+```
+Usage: gr8 [options] [target]
+
+Options:
+
+  -h, --help             output usage information
+  -V, --version          output the version number
+  -d, --dirname <value>  gr8 directory name
+```
+
+```
+# Add gr8 to current directory
+gr8
+
+# Add gr8 to specified directory
+gr8 put/it/here
+
+# Add gr8 to specified directory and change gr8 directory name
+gr8 -d gr8css put/it/here
+```
+
+## Build
 
 ```
 npm install
 npm run dist
 ```
-
-Breakpoints, whitespace, font size, responsive classes and nested columns can be changed in `source/_options.scss`. Breakpoints, whitespace, and font size are compiled using each loops — add/remove values from the arrays and correct number of corresponding classes will be generated.
-
-Turning off nested columns and nested column offsets DRASTICALLY decreases the size of gr8.

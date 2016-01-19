@@ -2,8 +2,14 @@
   "name": "gr8",
   "version": "1.0.0",
   "description": "functional css layout utils",
-  "main": "gr8.css",
-  "dependencies": {},
+  "main": "index.js",
+  "bin": {
+    "gr8": "index.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.4"
+  },
   "devDependencies": {
     "autoprefixer": "^6.0.1",
     "node-sass": "^3.3.2",
