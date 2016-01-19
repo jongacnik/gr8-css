@@ -10,7 +10,7 @@
     "postcss-cli": "^2.1.0"
   },
   "scripts": {
-    "build": "node-sass source/main.scss --output-style compact | grep . > gr8.css",
+    "build": "node-sass source/_main.scss --output-style compact | grep . > gr8.css",
     "post": "postcss --use autoprefixer gr8.css -d . gr8.css",
     "dist": "npm run build && npm run post"
   },
