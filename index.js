@@ -13,7 +13,7 @@ program.parse(process.argv)
 var target  = program.args.length ? program.args[0] : '.'
 var dirname = program.dirname || 'gr8'
 
-fs.copy('source', target + '/' + dirname, function (err) {
+fs.copy(__dirname + '/source', target + '/' + dirname, function (err) {
   if (err) return console.error(err)
   console.log('gr8 added to ' + target + '/' + dirname)
 })
