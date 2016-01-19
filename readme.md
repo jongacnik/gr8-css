@@ -1,6 +1,6 @@
 # gr8
 
-Functional css layout utilities & command line tool.
+Functional css layout [utilities](#utilities) & [command line tool](#command-line-tool).
 
 **Full documentation coming, eventually...**
 
@@ -55,7 +55,7 @@ If using nested columns and nested column offsets I recommend using something li
 Expose `gr8` command to quickly add the source of gr8 to a project.
 
 ```
-npm i gr8 -g
+npm i -g gr8
 ```
 
 ```
