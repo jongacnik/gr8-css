@@ -28,7 +28,7 @@ File | Contains
 [_etc.scss](https://github.com/jongacnik/gr8/blob/master/source/_etc.scss) | various
 [_dev.scss](https://github.com/jongacnik/gr8/blob/master/source/_dev.scss) | dev helpers
 [_options.scss](https://github.com/jongacnik/gr8/blob/master/source/_options.scss) | options
-[_main.scss](https://github.com/jongacnik/gr8/blob/master/source/main.scss) | main
+[_main.scss](https://github.com/jongacnik/gr8/blob/master/source/_main.scss) | main
 
 ## Responsive
 
