@@ -1256,34 +1256,34 @@
 .xo2 { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
 .xo3 { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
 .xo4 { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; }
-@media (max-width: 1439px) { [xl="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  [xl="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
-  [xl="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
-  [xl="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-  [xl="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-  [xl="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-  [xl="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
-@media (max-width: 1260px) { [lg="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  [lg="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
-  [lg="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
-  [lg="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-  [lg="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-  [lg="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-  [lg="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
-@media (max-width: 1023px) { [md="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  [md="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
-  [md="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
-  [md="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-  [md="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-  [md="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-  [md="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
-@media (max-width: 767px) { [sm="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
-  [sm="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
-  [sm="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
-  [sm="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
-  [sm="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
-  [sm="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
-  [sm="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
+@media (max-width: 1439px) { [xl~="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  [xl~="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
+  [xl~="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
+  [xl~="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+  [xl~="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+  [xl~="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+  [xl~="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
+@media (max-width: 1260px) { [lg~="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  [lg~="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
+  [lg~="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
+  [lg~="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+  [lg~="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+  [lg~="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+  [lg~="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
+@media (max-width: 1023px) { [md~="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  [md~="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
+  [md~="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
+  [md~="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+  [md~="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+  [md~="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+  [md~="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
+@media (max-width: 767px) { [sm~="x"] { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+  [sm~="xot"] { -webkit-box-ordinal-group: 0; -webkit-order: -1; -ms-flex-order: -1; order: -1; }
+  [sm~="xob"] { -webkit-box-ordinal-group: 100; -webkit-order: 99; -ms-flex-order: 99; order: 99; }
+  [sm~="xo1"] { -webkit-box-ordinal-group: 2; -webkit-order: 1; -ms-flex-order: 1; order: 1; }
+  [sm~="xo2"] { -webkit-box-ordinal-group: 3; -webkit-order: 2; -ms-flex-order: 2; order: 2; }
+  [sm~="xo3"] { -webkit-box-ordinal-group: 4; -webkit-order: 3; -ms-flex-order: 3; order: 3; }
+  [sm~="xo4"] { -webkit-box-ordinal-group: 5; -webkit-order: 4; -ms-flex-order: 4; order: 4; } }
 .fl { float: left; }
 .fr { float: right; }
 .fn { float: none; }

@@ -33,11 +33,11 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      [#{$bpn}="x"] { display: flex }
-      [#{$bpn}="xot"] { order: -1 }
-      [#{$bpn}="xob"] { order: 99 }
+      [#{$bpn}~="x"] { display: flex }
+      [#{$bpn}~="xot"] { order: -1 }
+      [#{$bpn}~="xob"] { order: 99 }
       @for $i from 1 through 4 {
-        [#{$bpn}="xo#{$i}"] { order: #{$i} }
+        [#{$bpn}~="xo#{$i}"] { order: #{$i} }
       }
     }
   }
