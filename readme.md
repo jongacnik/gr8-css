@@ -25,6 +25,7 @@ File | Contains
 [_h.scss](https://github.com/jongacnik/gr8/blob/master/source/_h.scss) | header
 [_t.scss](https://github.com/jongacnik/gr8/blob/master/source/_t.scss) | text-align
 [_bg.scss](https://github.com/jongacnik/gr8/blob/master/source/_bg.scss) | background
+[_op.scss](https://github.com/jongacnik/gr8/blob/master/source/_op.scss) | opacity
 [_etc.scss](https://github.com/jongacnik/gr8/blob/master/source/_etc.scss) | various
 [_dev.scss](https://github.com/jongacnik/gr8/blob/master/source/_dev.scss) | dev helpers
 [_options.scss](https://github.com/jongacnik/gr8/blob/master/source/_options.scss) | options

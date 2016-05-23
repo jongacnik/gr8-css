@@ -28,9 +28,9 @@
       @if $nest {
         @for $i from $cols through 1 {
           @for $j from $i through 1 {
-            [#{$bpn}="c#{$i}"] [#{$bpn}="co#{$j}"] { @include col-offset($j, $i) }
+            [#{$bpn}~="c#{$i}"] [#{$bpn}~="co#{$j}"] { @include col-offset($j, $i) }
           }
-          [#{$bpn}="c#{$i}"] [#{$bpn}="co-5"] { @include col-offset(0.5, $i) }
+          [#{$bpn}~="c#{$i}"] [#{$bpn}~="co-5"] { @include col-offset(0.5, $i) }
         }
       }
     }

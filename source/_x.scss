@@ -33,7 +33,32 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      [#{$bpn}~="x"] { display: flex }
+      [#{$bpn}~="x"]  { display: flex }
+      [#{$bpn}~="xx"] { flex: 1 }
+      [#{$bpn}~="xa"] { flex: 1 1 auto }
+      [#{$bpn}~="xn"] { flex: none }
+
+      [#{$bpn}~="xw"]  { flex-wrap: wrap }
+      [#{$bpn}~="xwr"] { flex-wrap: wrap-reverse }
+      [#{$bpn}~="xwn"] { flex-wrap: nowrap }
+
+      [#{$bpn}~="xac"] { align-items: center }
+      [#{$bpn}~="xab"] { align-items: baseline }
+      [#{$bpn}~="xas"] { align-items: stretch }
+      [#{$bpn}~="xafs"] { align-items: flex-start }
+      [#{$bpn}~="xafe"] { align-items: flex-end }
+
+      [#{$bpn}~="xdr"]  { flex-direction: row }
+      [#{$bpn}~="xdrr"] { flex-direction: row-reverse }
+      [#{$bpn}~="xdc"]  { flex-direction: column }
+      [#{$bpn}~="xdcr"] { flex-direction: column-reverse }
+
+      [#{$bpn}~="xjc"] { justify-content: center }
+      [#{$bpn}~="xjb"] { justify-content: space-between }
+      [#{$bpn}~="xja"] { justify-content: space-around }
+      [#{$bpn}~="xjs"] { justify-content: flex-start }
+      [#{$bpn}~="xje"] { justify-content: flex-end }
+
       [#{$bpn}~="xot"] { order: -1 }
       [#{$bpn}~="xob"] { order: 99 }
       @for $i from 1 through 4 {

@@ -3,6 +3,18 @@
 .psa { position: absolute }
 .psf { position: fixed }
 
+.t0 { top: 0 }
+.r0 { right: 0 }
+.b0 { bottom: 0 }
+.l0 { left: 0 }
+.tauto { top: auto }
+.rauto { right: auto }
+.bauto { bottom: auto }
+.lauto { left: auto }
+
+.wauto { width: auto }
+.hauto { height: auto }
+
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
@@ -10,6 +22,16 @@
       [#{$bpn}~="psr"] { position: relative }
       [#{$bpn}~="psa"] { position: absolute }
       [#{$bpn}~="psf"] { position: fixed }
+      [#{$bpn}~="t0"] { top: 0 }
+      [#{$bpn}~="r0"] { right: 0 }
+      [#{$bpn}~="b0"] { bottom: 0 }
+      [#{$bpn}~="l0"] { left: 0 }
+      [#{$bpn}~="tauto"] { top: auto }
+      [#{$bpn}~="rauto"] { right: auto }
+      [#{$bpn}~="bauto"] { bottom: auto }
+      [#{$bpn}~="lauto"] { left: auto }
+      [#{$bpn}~="hauto"] { height: auto }
+      [#{$bpn}~="wauto"] { width: auto }
     }
   }
 }

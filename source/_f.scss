@@ -15,9 +15,9 @@
 @if $resp {
   @each $bpn, $bp in $bps {
     @media #{$bp} {
-      [#{$bpn}="fl"] { float: left!important }
-      [#{$bpn}="fr"] { float: right!important }
-      [#{$bpn}="fn"] { float: none!important }
+      [#{$bpn}~="fl"] { float: left }
+      [#{$bpn}~="fr"] { float: right }
+      [#{$bpn}~="fn"] { float: none }
     }
   }
 }

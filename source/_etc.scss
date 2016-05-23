@@ -16,11 +16,6 @@
 .vam  { vertical-align: middle }
 .vab  { vertical-align: bottom }
 
-.t0 { top: 0 }
-.r0 { right: 0 }
-.b0 { bottom: 0 }
-.l0 { left: 0 }
-
 // collapse column
 .cc { font-size: 0 }
 
@@ -28,6 +23,14 @@
 .ts { height: 1px }
 
 .oh { overflow: hidden }
+.ohx { overflow-x: hidden }
+.ohy { overflow-y: hidden }
 .os { overflow: scroll }
 .osx { overflow-x: scroll }
 .osy { overflow-y: scroll }
+
+.curp { cursor: pointer }
+.curd { cursor: default }
+
+.no-pointer { pointer-events: none; }
+.no-select { user-select: none; }
