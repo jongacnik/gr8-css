@@ -1,8 +1,8 @@
 {
   "name": "gr8",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "functional css layout utils",
-  "main": "index.js",
+  "main": "gr8.css",
   "bin": {
     "gr8": "index.js"
   },
